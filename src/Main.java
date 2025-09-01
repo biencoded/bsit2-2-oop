@@ -1,5 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Hello world!");
+        LibraryManager library = new LibraryManager();
+
+        System.out.println("=== Library Management System ===");
+
+        library.showBooks();
+        library.addBook();
+        library.addBook();
+        library.addBook();
+
+        library.removeBook();
+        library.removeBook();
+        library.removeBook();
+
+        System.out.println("Program completed successfully.");
     }
 }
